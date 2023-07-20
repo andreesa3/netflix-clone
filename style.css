@@ -1,0 +1,13 @@
+@import url('/stili/root.css');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Netflix Sans', sans-serif;
+  background-color: var(--clr-secondary);
+  color: var(--clr-white);
+}

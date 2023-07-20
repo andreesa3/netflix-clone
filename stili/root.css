@@ -1,0 +1,17 @@
+:root {
+  --clr-primary: #E50815;
+  --clr-secondary: #000;
+  --clr-tertiary: #2D2D2D;
+  --clr-footer-links: #B3B3B3;
+  --clr-white: #fff;
+}
+
+@font-face {
+  font-family: 'Netflix Sans';
+  src: url('../assets/font/NetflixSans-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Netflix Sans';
+  src: url('../assets/font/NetflixSans-Bold.otf');
+}
