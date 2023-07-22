@@ -1,4 +1,5 @@
 @import url('/stili/root.css');
+@import url('/stili/faq.css');
 
 * {
   padding: 0;
@@ -10,4 +11,19 @@ body {
   font-family: 'Netflix Sans', sans-serif;
   background-color: var(--clr-secondary);
   color: var(--clr-white);
+}
+
+h2 {
+  font-size: var(--font-title-mobile);
+  text-align: center;
+  font-family: 'Netflix Sans Bold';
+}
+section {
+  padding: 5rem 1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  h2 {
+    font-size: var(--font-title-desktop);
+  }
 }
