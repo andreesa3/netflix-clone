@@ -1,0 +1,66 @@
+.faq-item-content span, .faq-item-question {
+  font-size: 18px;
+}
+
+/* Container */
+.faq-container {
+  max-width: 90%;
+  margin: 1.5rem auto;
+}
+/* Faq Ul */
+.faq-list {
+  list-style: none;
+}
+/* Faq li */
+.faq-item {
+  width: 100%;
+  margin: .5rem 0;
+}
+/* Faq radio Buttons */
+.faq-item input[type="checkbox"] {
+  display: none;
+}
+/* Faq Label */
+.faq-item-question {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 1.25rem; 
+  cursor: pointer;
+  background-color: var(--clr-tertiary);
+  position: relative;
+  margin-bottom: 1px;
+}
+.faq-item-question::after {
+  content: '+';
+  font-size: 2rem;
+  position: absolute;
+  right: 1rem;
+}
+
+/* Faq Bottom Content */
+.faq-item-content {
+  max-height: 0;
+  overflow: hidden;
+  background-color: var(--clr-tertiary);
+  transition: all 0.25s cubic-bezier(1, 0, 0.1, 1) 0s;
+  padding: 0 1.25rem;
+}
+
+/* Animation of Content and plus icon */
+.faq-item input[type="checkbox"]:checked + .faq-item-question + .faq-item-content {
+  max-height: 600px;
+  padding: 1.5rem 1.25rem;
+}
+.faq-item input[type="checkbox"]:checked + .faq-item-question::after {
+  transform: rotate(135deg);
+}
+
+@media screen and (min-width: 1024px) {
+  .faq-container {
+    max-width: calc( 80% - 6rem );
+    margin: 1.5rem auto;
+  }
+  .faq-item-content span, .faq-item-question {
+    font-size: 24px;
+  }  
+}
