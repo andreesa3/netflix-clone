@@ -1,4 +1,5 @@
 @import url('/stili/root.css');
+/* @import url('/stili/card-header.css'); */
 
 * {
   padding: 0;
@@ -10,4 +11,56 @@ body {
   font-family: 'Netflix Sans', sans-serif;
   background-color: var(--clr-secondary);
   color: var(--clr-white);
+}
+
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  background-image:linear-gradient(to top, rgba(0, 0, 0, 1) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 1) 100%), url("./assets/images/Netflix-Header-Background.jpg");
+}
+
+.hero-content {
+  max-width: 1000px;
+  padding: 20px;
+}
+
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .hero h1 {
+      font-size: 24px;
+  }
+
+  .hero p {
+      font-size: 16px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .hero h1 {
+      font-size: 20px;
+  }
+
+  .hero p {
+      font-size: 14px;
+  }
 }
