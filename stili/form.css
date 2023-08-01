@@ -1,0 +1,33 @@
+.card-email {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+  
+  }
+
+  .card-email .card-email-form {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .card-email .card-email-form .card-email-form-button {
+    
+  }
+  
+  .card-email-form-button-start {
+    background-color: var(--clr-primary);
+    color: var(--clr-white);
+    display: inline-flex;
+    
+    
+    
+    align-items: center;
+  }
+  
+  #card-email-form-button-svg {
+    width: 24px ;
+    height: 24px ;
+    color: var(--clr-white);
+  }
