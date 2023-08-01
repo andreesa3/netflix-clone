@@ -1,4 +1,5 @@
 @import url('/stili/root.css');
+@import url("/nav.css");
 
 * {
   padding: 0;
@@ -11,3 +12,5 @@ body {
   background-color: var(--clr-secondary);
   color: var(--clr-white);
 }
+
+
