@@ -3,9 +3,12 @@
   --clr-secondary: #000;
   --clr-tertiary: #2D2D2D;
   --clr-footer-links: #B3B3B3;
+  --clr-text-input: rgba(255, 255, 255, 0.7);
   --clr-white: #fff;
   --font-title-mobile: 32px;
   --font-title-mobile-h3: 20px;
+  --font-family-input-form: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  
 }
 
 @font-face {

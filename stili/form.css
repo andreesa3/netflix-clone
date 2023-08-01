@@ -4,15 +4,38 @@
     justify-content: center;
     text-align: center;
     display: flex;
+    position: absolute;
   
   }
 
   .card-email .card-email-form {
     display: flex;
     flex-direction: row;
+    text-align: center;
+  }
+
+  #card-email-form-input{
+    background-color: transparent;
+    color: var(--clr-text-input);
+    z-index: 1;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    left: 1rem;
+    right: 1rem;
+    top: 1rem;
+    text-align: left;
+    font-family: var(--font-family-input-form);
+    border: 1 solid transparent;
+    border-radius: 0.25rem;
+    width: 329.78px;
+    height: 56px;
+    padding: 16px 8px;
+    align-items: center;
+
   }
   
   .card-email .card-email-form .card-email-form-button {
+ 
     
   }
   
@@ -20,6 +43,12 @@
     background-color: var(--clr-primary);
     color: var(--clr-white);
     display: inline-flex;
+    border-radius: 0.25rem;
+    border: 1 solid black;
+    height: 56px;
+    width: 131.03px;
+    margin: 0px 0px 0px 8px;
+    padding: 12px 24px;
     
     
     
