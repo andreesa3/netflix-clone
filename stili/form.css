@@ -61,7 +61,7 @@
   }
 
 
-@media screen and (min-height: 768px) {
+@media screen and (max-width: 739px) {
     .card-email .card-email-form {
       display: flex;
       flex-direction: column;
@@ -79,3 +79,6 @@
     }
 
   }
+
+  
+  
