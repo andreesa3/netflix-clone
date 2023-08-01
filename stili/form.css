@@ -4,7 +4,7 @@
     justify-content: center;
     text-align: center;
     display: flex;
-    position: absolute;
+    
   
   }
 
@@ -49,9 +49,6 @@
     width: 131.03px;
     margin: 0px 0px 0px 8px;
     padding: 12px 24px;
-    
-    
-    
     align-items: center;
   }
   

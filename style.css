@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+header{
+  background-image: url(assets/images/background-header.jpeg);
+}
+
 body {
   font-family: 'Netflix Sans', sans-serif;
   background-color: var(--clr-secondary);
