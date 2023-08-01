@@ -1,0 +1,143 @@
+
+.container-img{
+    position: relative;
+}
+
+video{
+    position: absolute;
+    top: 45%;
+    transform: translateY(-45%);
+    left: 0;
+    right: 0;
+    z-index: -1;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.video-second-img{
+    top: 32%;
+    max-width: 65%;
+}
+
+.container-subimg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border: 3px solid gray;
+    min-width: 300px;
+    border-radius: 0.75rem;
+    position: absolute;
+    padding: 10px 5px;
+    overflow: hidden;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+}
+
+.container-subimg img{
+    max-height: 5rem;
+}
+
+.gif{
+    height: 3rem;
+}
+
+.container-subimg-text{
+    flex-grow: 1;
+    padding: 0 20px;
+}
+
+.container-subimg p{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.container-subimg span{
+    color: rgb(20, 110, 215);
+    font-size: 13px;
+}
+
+footer{
+    background-color: black;
+}
+
+.footer-top{
+    color: rgb(179, 179, 179);
+    padding-top: 0.75rem;
+    padding-left: 1.2rem;
+}
+
+.footer-bottom{
+    padding: 0.75rem;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: 1fr;
+}
+
+.footer-bottom a{
+    color: rgb(179, 179, 179);
+}
+
+.footer-bottom ul{
+    list-style: none;
+}
+
+.footer-bottom li{
+    padding: 0.50rem;
+}
+
+.footer-language{
+    padding-left: 1.2rem;
+    position: relative;
+}
+
+.footer-language select{
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 0.25rem;
+    appearance: none;
+    background-image: url('../assets/icons/arrow-down-icon.svg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding: 8px 28px;
+    font-size: 1rem;
+}
+
+.footer-language .world{
+    height: 1rem;
+    position: absolute;
+    left: 1.7rem;
+    top: 25%
+}
+
+
+
+#footer-p{
+    color: rgb(179, 179, 179);
+    font-size: 12px;
+    padding: 0.75rem;
+    padding-left: 1.2rem;
+}
+
+@media screen and (min-width: 640px){
+    .video-second-img{
+        max-width: 400px;
+    }
+
+    .container-subimg{
+        min-width: 450px;
+        bottom: 1rem;
+    }
+}
+

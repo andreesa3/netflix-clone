@@ -4,6 +4,7 @@
   --clr-tertiary: #2D2D2D;
   --clr-footer-links: #B3B3B3;
   --clr-white: #fff;
+  --font-title-mobile: 32px;
 }
 
 @font-face {
@@ -14,4 +15,11 @@
 @font-face {
   font-family: 'Netflix Sans Bold';
   src: url('../assets/font/NetflixSans-Bold.otf');
+}
+
+
+@media screen and (min-width: 1024px) {
+  :root {
+    --font-title-desktop: 48px;
+  }
 }
