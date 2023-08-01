@@ -4,17 +4,17 @@
     justify-content: center;
     text-align: center;
     display: flex;
+    gap: 20px;
     
-  
   }
 
-  .card-email .card-email-form {
+.card-email .card-email-form {
     display: flex;
     flex-direction: row;
     text-align: center;
   }
 
-  #card-email-form-input{
+#card-email-form-input{
     background-color: transparent;
     color: var(--clr-text-input);
     z-index: 1;
@@ -27,32 +27,34 @@
     font-family: var(--font-family-input-form);
     border: 1 solid transparent;
     border-radius: 0.25rem;
-    width: 329.78px;
+    width: 448.79px;
     height: 56px;
     padding: 16px 8px;
     align-items: center;
 
   }
   
-  .card-email .card-email-form .card-email-form-button {
  
-    
-  }
-  
-  .card-email-form-button-start {
+.card-email-form-button-start {
     background-color: var(--clr-primary);
     color: var(--clr-white);
     display: inline-flex;
     border-radius: 0.25rem;
-    border: 1 solid black;
+    border: 1 solid transparent;
     height: 56px;
     width: 131.03px;
     margin: 0px 0px 0px 8px;
     padding: 12px 24px;
     align-items: center;
+    font-size: 24px;
+    transition-duration: 250ms;
+    transition-property: background-color, border-color;
+    transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+    overflow: visible;
+    cursor: pointer;
   }
   
-  #card-email-form-button-svg {
+#card-email-form-button-svg {
     width: 24px ;
     height: 24px ;
     color: var(--clr-white);

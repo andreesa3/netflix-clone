@@ -8,9 +8,7 @@
   box-sizing: border-box;
 }
 
-header{
-  background-image: url(assets/images/background-header.jpeg);
-}
+
 
 body {
   font-family: 'Netflix Sans', sans-serif;
@@ -27,6 +25,8 @@ h2 {
 h3 {
   font-size: var(--font-title-mobile-h3);
   color:var(--clr-white);
+  font-family: 'Netflix Sans', Helvetica Neue, Segoe UI,Roboto, Ubuntu, sans-serif;
+  
 
 }
 
