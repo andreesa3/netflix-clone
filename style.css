@@ -18,7 +18,6 @@ body {
 h2 {
   font-size: var(--font-title-mobile);
   text-align: center;
-  font-family: 'Netflix Sans Bold';
 }
 section {
   padding: 5rem 1.5rem;
