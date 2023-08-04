@@ -17,6 +17,18 @@
   src: url('../assets/font/NetflixSans-Bold.otf');
 }
 
+* {
+  font-family: 'Netflix Sans';
+}
+
+h1,
+h2, 
+h3, 
+h4,
+h5,
+h6 {
+  font-family: 'Netflix Sans Bold';
+}
 
 @media screen and (min-width: 1024px) {
   :root {
