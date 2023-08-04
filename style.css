@@ -1,6 +1,7 @@
 @import url('/stili/root.css');
-@import url('/stili/faq.css');
 @import url('/stili/nav.css');
+@import url('/stili/images.css');
+@import url('/stili/faq.css');
 
 * {
   padding: 0;
