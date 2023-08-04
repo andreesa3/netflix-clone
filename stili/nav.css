@@ -1,0 +1,72 @@
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+nav .wrapper{
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  align-items: center;
+  height: 86px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+#netflix{
+  width: 148px;
+  height: 40px;
+}
+
+nav .nav-right{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-language{
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.footer-language select{
+  background: transparent;
+  color: var( --clr-white);
+  border: 1px solid rgb(179, 179, 179);
+  border-radius: 0.25rem;
+  appearance: none;
+  background-image: url('../assets/icons/arrow-down-icon.svg');
+  background-position: right center;
+  background-repeat: no-repeat;
+  padding: 8px 25px;
+  font-size: 0px;
+  height: 36px;
+}
+
+.footer-language select option{
+  font-size: 1rem;
+}
+
+.footer-language .world{
+  height: 1rem;
+  position: absolute;
+  left: 1.7rem;
+  top: 25%
+}
+
+#accedi{
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
+  border-radius: 5px;
+  padding: 0.52rem 1rem;
+  font-size: 1rem;
+  border: none;
+}
+
+@media screen and (min-width:768px){
+  .footer-language select{
+      font-size: 1rem;
+      padding: 8px 32px;
+  }
+}

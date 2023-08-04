@@ -10,10 +10,27 @@
 </head>
 
 <body>
-  <header>
-    <!-- Navbar -->
-    <nav></nav>
-    <!-- Header Body -->
+  <!-- Navbar -->
+  <nav>
+    <div class="wrapper">
+      <div class="nav-left">
+        <img src="./assets/icons/logo-netflix.svg" alt="logo-netflix" id="netflix">
+      </div>
+      <div class="nav-right">
+        <div class="footer-language">
+          <img class="world" src="assets/icons/world-icon.svg" alt="">
+          <select>
+            <option value="it-IT" label="Italiano">Italiano</option>
+            <option value="en-IT" label="English">English</option>
+          </select>
+        </div>
+        <button id="accedi">Accedi</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header Body -->
+  <header class="hero">
     <div class="header-body">
       <div class="card"></div>
       <!-- Form -->
@@ -61,7 +78,7 @@
             <div class="faq-item-content">
               <span>Netflix è un servizio di streaming che offre una varietà di serie TV, film, documentari
                 pluripremiati e tanto altro su una vasta gamma di dispositivi connessi a Internet.</span><br>
-                <br>
+              <br>
               <span>Guarda quello che vuoi, quando vuoi. Il tutto a una quota mensile ridotta. C'è sempre qualcosa di
                 nuovo da scoprire: aggiungiamo nuovi film e serie TV ogni settimana!</span>
             </div>
@@ -81,8 +98,9 @@
             <div class="faq-item-content">
               <span>Guarda Netflix dove vuoi, quando vuoi. Accedi al tuo account per guardare subito Netflix dal tuo
                 computer su netflix.com oppure da qualsiasi dispositivo connesso a Internet che supporta l'app Netflix,
-                come smart TV, smartphone, tablet, lettori multimediali per streaming e console per videogiochi.</span><br>
-                <br>
+                come smart TV, smartphone, tablet, lettori multimediali per streaming e console per
+                videogiochi.</span><br>
+              <br>
               <span>Con l'app per iOS, Android e Windows 10 puoi anche scaricare i tuoi programmi preferiti. Usa la
                 funzionalità di download per guardare i contenuti mentre sei in viaggio e senza connessione a Internet.
                 Porta Netflix sempre con te.</span>
@@ -112,7 +130,7 @@
               <span>L'area Netflix Bambini, già inclusa nell'abbonamento, offre ai genitori un maggiore controllo sui
                 contenuti e ai più piccoli uno spazio dedicato dove guardare serie TV e film per tutta la
                 famiglia.</span><br>
-                <br>
+              <br>
               <span> profili Bambini hanno un filtro famiglia con PIN che ti permette di limitare l'accesso ai contenuti
                 in base alla fascia d'età e bloccare la visione di titoli specifici.</span>
             </div>
