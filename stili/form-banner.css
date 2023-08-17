@@ -1,0 +1,157 @@
+.card-email {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  gap: 20px;
+}
+
+.card-email .card-email-form {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+#card-email-form-input {
+  background-color: transparent;
+  color: var(--clr-text-input);
+  z-index: 1;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  left: 1rem;
+  right: 1rem;
+  top: 1rem;
+  text-align: left;
+  font-family: var(--font-family-input-form);
+  border: 1 solid transparent;
+  border-radius: 0.25rem;
+  width: 448.79px;
+  height: 56px;
+  padding: 16px 8px;
+  align-items: center;
+}
+
+.card-email-form-button-start {
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
+  display: inline-flex;
+  border-radius: 0.25rem;
+  border: 1 solid transparent;
+  height: 56px;
+  width: 131.03px;
+  margin: 0px 0px 0px 8px;
+  padding: 12px 24px;
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+  transition-duration: 250ms;
+  transition-property: background-color, border-color;
+  transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
+  overflow: visible;
+  cursor: pointer;
+}
+
+#card-email-form-button-svg {
+  width: 24px;
+  height: 24px;
+  color: var(--clr-white);
+}
+
+.banner {
+  background: radial-gradient(
+    51.39% 511.66% at 47.68% -217.91%,
+    #ff9900 0%,
+    #e50914 17.27%,
+    #0e1b4f 79.44%,
+    #000413 100%
+  );
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 74px;
+  height: 144px;
+  box-shadow: 0px -8px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+}
+
+.banner-text {
+  padding: 0px 0px 0px 32px;
+  color: var(--clr-white);
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+
+.banner-text-1 {
+  font-size: 20px;
+  color: var(--clr-white);
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+
+.banner-text-2 {
+  font-size: 16px;
+  margin: 4px 0px 8px;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+
+#banner-text-button {
+  color: var(--clr-blue);
+  display: inline-flex;
+  text-align: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+  font-family: sans-serif;
+  cursor: pointer;
+  text-decoration: underline;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+}
+
+@media screen and (max-width: 739px) {
+  .card-email .card-email-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  #card-email-form-input {
+    height: 48px;
+    width: 318.4px;
+    margin-bottom: 16px;
+  }
+
+  h3 {
+    width: 318.4px;
+  }
+
+  .banner {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    align-items: center;
+    justify-content: left;
+    margin-top: 10px;
+  }
+
+  #banner-svg {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+    transform: scale(0.8);
+    margin-top: -55px;
+    margin-left: -200px;
+  }
+
+  .banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+}
