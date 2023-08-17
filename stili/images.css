@@ -70,7 +70,7 @@ footer {
 }
 
 .footer-top {
-  color: var(--clr-tertiary);
+  color: var(--clr-footer-links);
   padding-top: 0.75rem;
   padding-left: 1.2rem;
 }
@@ -84,7 +84,7 @@ footer {
 }
 
 .footer-bottom a {
-  color: var(--clr-tertiary);
+  color: var(--clr-footer-links);
 }
 
 .footer-bottom ul {
@@ -102,7 +102,7 @@ footer {
 
 .footer-language select {
   background: transparent;
-  color: var(--clr-var(--clr-white));
+  color: var(--clr-white);
   border: 1px solid var(--clr-tertiary);
   border-radius: 0.25rem;
   appearance: none;
