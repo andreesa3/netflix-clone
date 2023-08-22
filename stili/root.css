@@ -5,6 +5,17 @@
   --clr-footer-links: #B3B3B3;
   --clr-white: #fff;
   --font-title-mobile: 32px;
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+  --font-title-mobile-h3: 20px;
+  --font-family-input-form: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+  
+  
+=======
+  --font-p-mobile: 18px;
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 }
 
 @font-face {
@@ -30,8 +41,9 @@ h6 {
   font-family: 'Netflix Sans Bold';
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 960px) {
   :root {
     --font-title-desktop: 48px;
+    --font-p-desktop: 24px;
   }  
 }
