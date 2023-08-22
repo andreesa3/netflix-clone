@@ -64,7 +64,7 @@ nav .nav-right{
   border: none;
 }
 
-@media screen and (min-width:768px){
+@media screen and (min-width:960px){
   .footer-language select{
       font-size: 1rem;
       padding: 8px 32px;
