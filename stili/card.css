@@ -1,0 +1,35 @@
+.header-body {
+  background: no-repeat center/cover url('../assets/images/background-header.jpeg');
+  padding: 10% 0;
+}
+.card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.25rem;
+}
+.card:nth-of-type(1) {
+  margin-bottom: 2rem;
+}
+.card p {
+  font-size: var(--font-p-mobile);
+}
+
+@media screen and (min-width: 960px) {
+  .card-title,
+  .card-p {
+    text-align: left;
+  }
+  .card p {
+    font-size: var(--font-p-desktop);
+  }
+  .reversed-img {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+  .reversed-card {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+}
