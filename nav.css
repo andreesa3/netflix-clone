@@ -1,4 +1,6 @@
 nav{
+    position: absolute;
+    top: 0;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -11,7 +13,7 @@ nav .wrapper{
     align-items: center;
     height: 86px;
     max-width: 1200px;
-    width: 100%;
+    width: 90%;
 }
 
 #netflix{
@@ -31,12 +33,12 @@ nav .nav-right{
 }
 
 .footer-language select{
-    background: transparent;
+    background-color: transparent;
     color: var( --clr-white);
     border: 1px solid rgb(179, 179, 179);
     border-radius: 0.25rem;
     appearance: none;
-    background-image: url('../assets/icons/arrow-down-icon.svg');
+    background-image: url('/netflix-clone/assets/icons/arrow-down-icon.svg');
     background-position: right center;
     background-repeat: no-repeat;
     padding: 8px 25px;
@@ -68,6 +70,9 @@ nav .nav-right{
     .footer-language select{
         font-size: 1rem;
         padding: 8px 32px;
+    }
+    nav .wrapper{
+        width: 90%;
     }
 }
 
