@@ -32,7 +32,7 @@
 }
 .faq-item-question::after {
   content: '+';
-  font-size: 2rem;
+  font-size: 3rem;
   position: absolute;
   right: 1rem;
 }
