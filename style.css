@@ -1,9 +1,9 @@
-@import url("/stili/root.css");
-@import url("/stili/nav.css");
-@import url("/stili/card.css");
-@import url("/stili/images.css");
-@import url("/stili/faq.css");
-@import url("/stili/form-banner.css");
+@import url("./stili/root.css");
+@import url("./stili/nav.css");
+@import url("./stili/card.css");
+@import url("./stili/images.css");
+@import url("./stili/faq.css");
+@import url("./stili/form-banner.css");
 
 * {
   padding: 0;
