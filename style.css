@@ -1,9 +1,9 @@
-@import url("/stili/root.css");
-@import url("/stili/nav.css");
-@import url("/stili/card.css");
-@import url("/stili/images.css");
-@import url("/stili/faq.css");
-@import url("/stili/form-banner.css");
+@import url("./stili/root.css");
+@import url("./stili/nav.css");
+@import url("./stili/card.css");
+@import url("./stili/images.css");
+@import url("./stili/faq.css");
+@import url("./stili/form-banner.css");
 
 * {
   padding: 0;
@@ -21,8 +21,15 @@ h2 {
   font-size: var(--font-title-mobile);
   text-align: center;
 }
+
+.wrapper {
+  max-width: 1200px;
+}
 section {
   padding: 5rem 1.5rem;
+}
+section:nth-of-type(2) {
+  border-bottom: 3px solid var(--clr-tertiary);
 }
 .container {
   padding: 5rem 0;

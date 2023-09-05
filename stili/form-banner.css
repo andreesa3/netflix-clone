@@ -30,6 +30,7 @@
   height: 56px;
   padding: 16px 8px;
   align-items: center;
+  border: 1px solid var(--clr-footer-links);
 }
 
 .card-email-form-button-start {
@@ -50,6 +51,7 @@
   transition-timing-function: cubic-bezier(0.9, 0, 0.51, 1);
   overflow: visible;
   cursor: pointer;
+  border: none;
 }
 
 #card-email-form-button-svg {
