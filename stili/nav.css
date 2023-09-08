@@ -18,7 +18,7 @@ nav .wrapper{
 }
 
 #netflix{
-  width: 148px;
+  width: 108px;
   height: 40px;
 }
 
@@ -68,6 +68,10 @@ nav .nav-right{
 }
 
 @media screen and (min-width:768px){
+  #netflix{
+    width: 148px;
+    height: 40px;
+  }
   .footer-language select{
       font-size: 1rem;
       padding: 8px 32px;

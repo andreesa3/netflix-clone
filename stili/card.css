@@ -29,7 +29,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 1.25rem;
+  gap: 2rem;
 }
 .card:nth-of-type(1) {
   margin-bottom: 2rem;
@@ -48,7 +48,7 @@
 }
 
 .header-body p {
-  font-size: 24px;
+  /* font-size: 24px; */
 }
 
 .card {
@@ -58,13 +58,11 @@
   text-align: left;
 }
 .card h2 {
-  font-size: 48px;
   margin-bottom: 20px;
   max-width: 135ch;
 }
 
 .card p {
-  font-size: 24px;
   max-width: 145ch;
 }
 
@@ -104,26 +102,21 @@ hr {
   padding: 0;
 }
 
-@media screen and (max-width: 768px) {
-  .header-body h1 {
-    font-size: 24px;
-  }
-
-  .header-body p {
-    font-size: 16px;
+@media screen and (min-width: 768px) {
+  .header-body {
+    height: 55vh;
   }
 }
-
 @media screen and (min-width: 960px) {
+  .header-body {
+    height: 80vh;
+  }
   .card {
     margin-left: 2rem;
   }
   .card-title,
   .card-p {
     text-align: left;
-  }
-  .card p {
-    font-size: var(--font-p-desktop);
   }
   .reversed-img {
     grid-column: 1 / 2;

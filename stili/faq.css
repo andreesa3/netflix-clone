@@ -32,7 +32,7 @@
 }
 .faq-item-question::after {
   content: '+';
-  font-size: 3rem;
+  font-size: 2rem;
   position: absolute;
   right: 1rem;
 }
@@ -59,6 +59,9 @@
   .faq-container {
     max-width: calc( 80% - 6rem );
     margin: 1.5rem auto;
+  }
+  .faq-item-question::after {
+    font-size: 3rem;
   }
   .faq-item-content span, .faq-item-question {
     font-size: 24px;
